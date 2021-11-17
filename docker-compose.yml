@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  start:
+    image: ukaiser/docker-xc8
+    command: tail -F anything
+    container_name: xc8_container
+    volumes:
+      - .:/work_dir
+volumes:
+  .:

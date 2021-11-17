@@ -1,0 +1,12 @@
+*.p1
+*.d
+*.as
+*.hxl
+*.sym
+*.sdb
+*.pre
+*.cof
+*.cmf
+*.obj
+*.lpp
+startup*
